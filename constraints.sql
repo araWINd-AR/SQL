@@ -1,16 +1,3 @@
-Enter password: ************
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 14
-Server version: 9.5.0 MySQL Community Server - GPL
-
-Copyright (c) 2000, 2025, Oracle and/or its affiliates.
-
-Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-
 mysql> show databases;
 +--------------------+
 | Database           |
@@ -194,3 +181,4 @@ mysql> DESC student;
 7 rows in set (0.036 sec)
 
 mysql>
+
