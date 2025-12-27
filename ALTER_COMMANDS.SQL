@@ -1,15 +1,3 @@
-Enter password: ************
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 17
-Server version: 9.5.0 MySQL Community Server - GPL
-
-Copyright (c) 2000, 2025, Oracle and/or its affiliates.
-
-Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> show databases;
 +--------------------+
@@ -264,17 +252,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 
 mysql> --ADD PRIMARY KEY CONSTRAINT--
     -> \c
-mysql> ALTER TABLE TUTORIAL_PRACTICE
-    -> ADD CONSTRAINT PRIAMRY KEY(SNO);
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'KEY(SNO)' at line 2
-mysql> ALTER TABLE TUTORIAL_PRACTICE
-    -> ADD CONSTRAINT PRIAMRY KEY(sno);
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'KEY(sno)' at line 2
-mysql> ALTER TABLE tutorial_practice
-    -> ADD PRIMARY KEY (sno);
-ERROR 1062 (23000): Duplicate entry '2' for key 'tutorial_practice.PRIMARY'
-mysql> desc tutorail_practice;
-ERROR 1146 (42S02): Table 'data.tutorail_practice' doesn't exist
+
 mysql> desc tutorial_practice;
 +-------+-------------+------+-----+---------+-------+
 | Field | Type        | Null | Key | Default | Extra |
@@ -588,3 +566,4 @@ Query OK, 6 rows affected (0.344 sec)
 Records: 6  Duplicates: 0  Warnings: 0
 
 mysql>
+
