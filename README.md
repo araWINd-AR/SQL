@@ -1,17 +1,3 @@
-You’re getting that output because **Markdown rules are being broken** — long sentences are on the same line, so GitHub renders them as a single paragraph.
-This is not your fault; it’s how Markdown works.
-
-Below is the **BEST, cleanest, professional way** to write this README so that:
-
-* Text is readable
-* Sections are clearly separated
-* GitHub renders it properly
-* It still feels **human-written**, not robotic
-
-👉 **Delete everything in your README.md and paste ONLY this exactly as-is**.
-
----
-
 # SQL Practice Repository
 
 This repository contains my SQL practice files created while learning and strengthening database concepts.
@@ -81,22 +67,3 @@ The files reflect learning and practice, not just final outputs.
 
 Aravind Ganipisetty
 
----
-
-### Why this works (important)
-
-* `-` creates clean lists
-* Two spaces at the end of a line force proper line breaks
-* Headings use `#` and `##` correctly
-* GitHub will **not merge lines anymore**
-
-This is **portfolio-ready** and **academically clean**.
-
-If you want, next I can:
-
-* Make a **minimal one-page README**
-* Make a **resume-focused GitHub README**
-* Add a **Learning Progress** section
-* Add **future improvements** section
-
-Just tell me what level you want.
